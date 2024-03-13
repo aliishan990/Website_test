@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/Desktop/New folder/Front_end_testing/website_testing">
+        <classes>
+            <class name="Sel_testing.cou_lis">
+                <methods>
+                    <include name="list"/>
+                </methods>
+            </class>
+            <class name="Sel_testing.country_list">
+                <methods>
+                    <include name="countries"/>
+                </methods>
+            </class>
+            <class name="Trail_app.DateredBus">
+                <methods>
+                    <include name="launchHRM"/>
+                </methods>
+            </class>
+            <class name="dieHard.Brucess">
+                <methods>
+                    <include name="launch"/>
+                </methods>
+            </class>
+            <class name="dieHard.Date_sele">
+                <methods>
+                    <include name="launch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
